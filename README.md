@@ -12,6 +12,6 @@
   
 ### ScreenShoot
 
-|<img src=/ss/discover.png  align="center" height="400" width="248" ></a> |<img src=/ss/search.png  align="center" height="400" width="248" ></a>|<img src=/ss/about.png  align="center" height="400" width="248" ></a>|<img src=/ss/detail.png  align="center" height="400" width="248" ></a>
-|:-----------:|:--------:|:--------:|:--------:|
-| Discover | Search | About | Detail |
+<img src=/ss/splash.png  align="center" height="400" width="248" ></a>|<img src=/ss/discover.png  align="center" height="400" width="248" ></a> |<img src=/ss/search.png  align="center" height="400" width="248" ></a>|<img src=/ss/about.png  align="center" height="400" width="248" ></a>|<img src=/ss/detail.png  align="center" height="400" width="248" ></a>|<img src=/ss/share.png  align="center" height="400" width="248" ></a>
+|:-----------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|Splash| Discover | Search | About | Detail | Share |
