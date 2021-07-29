@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activies.DetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ProgressBar
+            android:id="@+id/pbDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:layout_centerInParent="true"/>
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/white"
+            android:elevation="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            tools:targetApi="lollipop">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="15dp">
+
+                <RelativeLayout
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape_back"
+                    android:backgroundTint="#BA056383"
+                    android:paddingStart="8dp"
+                    tools:targetApi="lollipop">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginBottom="6dp"
+
+                        android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                        android:textAlignment="center" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/judul_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_toStartOf="@+id/shareBtn"
+                    android:layout_toEndOf="@+id/back"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/nunitosansblack"
+                    android:maxLines="1"
+                    android:text="judel" />
+
+
+                <RelativeLayout
+                    android:id="@+id/shareBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape_back"
+                    android:backgroundTint="#BACFB929"
+                    android:padding="7dp"
+                    tools:targetApi="lollipop">
+
+
+                    <ImageView
+                        android:id="@+id/fav_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_share_24"
+                        android:textAlignment="center" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

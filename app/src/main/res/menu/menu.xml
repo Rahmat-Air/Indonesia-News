@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/ic_globe_2_outline"
+        android:title="Utama" />
+
+    <item
+        android:id="@+id/Cari"
+        android:icon="@drawable/ic_search_outline"
+        android:title="Cari" />
+
+
+    <item
+        android:id="@+id/Tentang"
+        android:icon="@drawable/ic_alert_circle_outline"
+        android:title="Tentang" />
+
+
+
+
+</menu>
