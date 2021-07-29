@@ -1,4 +1,4 @@
-#Indonesia News
+Indonesia News
 
 ### Detail
 1. Bahasa pemrograman : Java
